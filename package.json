@@ -1,5 +1,5 @@
 {
-  "name": "SumitSharmaUNM/semantic-release-test",
+  "name": "@sumitsharmaunm/semantic-release-test",
   "version": "1.0.1",
   "packageManager": "pnpm@10.18.2",
   "description": "Shared utility functions for property portal and crypto exchange projects",
