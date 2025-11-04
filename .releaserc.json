@@ -1,6 +1,6 @@
 {
   "branches": ["main"],
-  "repositoryUrl": "https://github.com/The-Unmarketing-Agency/shared-utils",
+  "repositoryUrl": "https://github.com/SumitSharmaUNM/semantic-release-test",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
