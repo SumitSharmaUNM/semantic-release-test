@@ -1,0 +1,21 @@
+# .github/workflows/ci.yml
+
+name: CI Pipeline
+
+# This workflow runs on every Pull Request that targets the 'main' branch
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  # This job just calls the other workflow
+  call-reusable-ci:
+    name: 'Run Reusable CI'
+    # 'uses' calls the reusable workflow in your own repo
+    uses: ./.github/workflows/reusable-ci.yml
+    # 'secrets: inherit' is needed if your build needs secrets
+    secrets: inherit

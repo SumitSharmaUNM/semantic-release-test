@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Compile to a modern ECMAScript version
+    "lib": ["esnext"], // Standard libraries for browser environments
+    "module": "esnext", // Standard for Node.js libraries
+    "moduleResolution": "bundler", // How modules get resolved
+    "esModuleInterop": true, // *** THIS IS THE FIX *** Allows default imports from modules with no default export
+    "allowSyntheticDefaultImports": true, // Works with esModuleInterop
+    "strict": true, // Enable all strict type-checking options (best practice)
+    "skipLibCheck": true, // Skip type checking of declaration files in node_modules
+    "forceConsistentCasingInFileNames": true,
+
+    "resolveJsonModule": true,
+    "declaration": true, // Generate .d.ts files for consumers
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "test", "jest.config.js"]
+}

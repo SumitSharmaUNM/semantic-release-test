@@ -1,0 +1,22 @@
+# This script tries to find a working npx executable by checking common locations.
+
+# 1. Try to load nvm first, as it's a common environment manager.
+if [ -s "$HOME/.nvm/nvm.sh" ]; then
+  export NVM_DIR="$HOME/.nvm"
+  . "$NVM_DIR/nvm.sh"
+fi
+
+# 2. If 'npx' is still not a recognized command, check for the executable in common paths.
+# 'command -v' is a reliable way to check if a command exists in the current PATH.
+if ! command -v npx >/dev/null 2>&1; then
+  # Check for Homebrew on Apple Silicon Macs
+  if [ -x "/opt/homebrew/bin/npx" ]; then
+    export PATH="/opt/homebrew/bin:$PATH"
+  # Check for standard /usr/local/bin (Intel Macs, other installers)
+  elif [ -x "/usr/local/bin/npx" ]; then
+    export PATH="/usr/local/bin:$PATH"
+  fi
+fi
+
+# 3. Now, run the command. If npx is still not found, this will fail with a clear error.
+npx lint-staged
