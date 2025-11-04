@@ -8,6 +8,7 @@
  * generateKey('item') // 'item-abc123xyz'
  * ```
  */
+
 export function generateKey(prefix = 'key') {
   return `${prefix}-${cryptoRandom()}`;
 }
