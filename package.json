@@ -1,6 +1,6 @@
 {
   "name": "@The-Unmarketing-Agency/shared-utils",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.18.2",
   "description": "Shared utility functions for property portal and crypto exchange projects",
   "main": "dist/index.js",
