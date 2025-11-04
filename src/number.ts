@@ -11,6 +11,7 @@
  * formatCurrency(1500000) // 'AED 1,500,000.00'
  * ```
  */
+
 export const formatCurrency = (
   amount: number,
   locale = 'en-US',
