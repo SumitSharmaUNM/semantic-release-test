@@ -10,9 +10,6 @@
  * ```
  */
 
-
-
-
 export const formatDate = (date: string) => {
   const d = new Date(date);
   if (isNaN(d.getTime()) || typeof date !== 'string' || !date) {
