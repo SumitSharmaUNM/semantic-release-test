@@ -1,3 +1,14 @@
+# [1.1.0](https://github.com/SumitSharmaUNM/semantic-release-test/compare/v1.0.0...v1.1.0) (2025-11-04)
+
+### Bug Fixes
+
+- **ci:** added diff d ([d31ff7a](https://github.com/SumitSharmaUNM/semantic-release-test/commit/d31ff7a2f0e582285bf3be927413128d663a9880))
+- **ci:** dddf ([15533a5](https://github.com/SumitSharmaUNM/semantic-release-test/commit/15533a5dd3c93d7966814deca188badb41717498))
+
+### Features
+
+- **ci:** dd ([fa6a5f5](https://github.com/SumitSharmaUNM/semantic-release-test/commit/fa6a5f5874b7b7a8d3fe051ed4b461b5d35fbb96))
+
 # 1.0.0 (2025-11-04)
 
 ### Bug Fixes
