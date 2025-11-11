@@ -17,7 +17,7 @@
     "prepare": "husky",
     "docs:build": "typedoc src/index.ts --out docs",
     "format:check": "prettier --check \"**/*.{ts,js,json,mjs,md}\"",
-    "release": "anolilab-semantic-release"
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@anolilab/semantic-release-pnpm": "^2.0.5",
