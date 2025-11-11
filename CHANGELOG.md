@@ -1,3 +1,13 @@
+## [1.1.1](https://github.com/SumitSharmaUNM/semantic-release-test/compare/v1.1.0...v1.1.1) (2025-11-11)
+
+### Bug Fixes
+
+- **ci:** cjk ([7f93532](https://github.com/SumitSharmaUNM/semantic-release-test/commit/7f935329c3d3a0f0de5e878a842588026e9ae2e4))
+- **ci:** ddd ([3df641a](https://github.com/SumitSharmaUNM/semantic-release-test/commit/3df641a1e6c4d335e92ebb7bcf6303daa2e965cc))
+- **ci:** fixxxc ([602cf04](https://github.com/SumitSharmaUNM/semantic-release-test/commit/602cf04921250ccd558136d575fdec9794c7d5b1))
+- fixtest ([6dfc77c](https://github.com/SumitSharmaUNM/semantic-release-test/commit/6dfc77c3707c57e5a0fb2ebab9f5217aa9ed98e6))
+- test2 ([0219fa9](https://github.com/SumitSharmaUNM/semantic-release-test/commit/0219fa9d8761421cc8ce81b2b0635e937707966d))
+
 # [1.1.0](https://github.com/SumitSharmaUNM/semantic-release-test/compare/v1.0.0...v1.1.0) (2025-11-04)
 
 ### Bug Fixes
