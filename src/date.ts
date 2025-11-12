@@ -9,6 +9,7 @@
  * formatDate('2025-10-17') // '17-10-2025'
  * ```
  */
+
 export const formatDate = (date: string) => {
   const d = new Date(date);
   if (isNaN(d.getTime()) || typeof date !== 'string' || !date) {
